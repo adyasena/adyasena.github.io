@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import LogoKominfo from "../assets/logo_kominfo.png";
 
 const Navbar = () => {
   const [scroll, setScroll] = useState(false);
@@ -19,7 +20,7 @@ const Navbar = () => {
         "justify-between transform duration-300 ease overflow-hidden " + (scroll ? "h-16" : "h-24")}>
         
         <div className="flex flex-row justify-start items-center text-white h-full">
-          <img src="../src/assets/logo_kominfo.png" alt="logo kominfo" className={"m-2 transform duration-300 ease " + (scroll ? "w-8" : "w-0 mr-[-4px]")}/>
+          <img src={LogoKominfo} alt="logo kominfo" className={"m-2 transform duration-300 ease " + (scroll ? "w-8" : "w-0 mr-[-4px]")}/>
           <p className="transform">Agenda VCON</p> 
           </div>
         <button className={"text-base border-2 font-normal py-2 px-6 rounded-full transform duration-300 ease "
