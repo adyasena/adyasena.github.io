@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import BgHome from "../assets/home.jpg";
 import LogoKominfo from "../assets/logo_kominfo.png";
 import LogoPurworejo from "../assets/logo_purworejo.png";
+import Hug from "../assets/hug.mp3";
 
 const Home = () => {
   const scrollToBottom = () => {
@@ -10,6 +11,9 @@ const Home = () => {
       behavior: 'smooth',
     });
   };
+  function start() {
+    new Audio(Hug).play()
+  }
 
   return (
     <div className="w-full h-screen bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url(${BgHome})`}}>
@@ -26,8 +30,10 @@ const Home = () => {
             Kabupaten Purworejo
           </div>
           <div className="mt-10">
-            <button className="bg-blue-light text-white font-normal py-2 px-6 rounded-full transform duration-300 ease hover:bg-white hover:text-black" onClick={scrollToBottom}>Lihat Agenda</button>
-            
+            <button className="bg-blue-light text-white font-normal py-2 px-6 rounded-full transform duration-300 ease hover:bg-white hover:text-black" 
+              onClick={start}>
+                Pencet Ini Tan
+            </button>
           </div>
           <div>
           
