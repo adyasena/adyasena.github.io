@@ -24,20 +24,20 @@ const Navbar = () => {
             <img src={Logo} alt="logo kominfo" className={"m-2 transform duration-300 ease " + (scroll ? "w-8" : "w-0 mr-[-4px]")}/>
             <p className="transform">Adya Sena</p> 
           </div>
-          <div className="flex gap-6">
-            <button className="text-base py-2 px-6 rounded-full transform duration-300 ease text-white hover:text-green">
+          <div className="flex gap-6 text-base">
+            <button className="py-2 px-6 rounded-full transform duration-300 ease text-white hover:text-green">
                 Home
             </button>
-            <button className="text-base py-2 px-6 rounded-full transform duration-300 ease text-white hover:text-red">
+            <button className="py-2 px-6 rounded-full transform duration-300 ease text-white hover:text-red">
                 About
             </button>
-            <button className="text-base py-2 px-6 rounded-full transform duration-300 ease text-white hover:text-blue">
+            <button className="py-2 px-6 rounded-full transform duration-300 ease text-white hover:text-blue">
                 Skills
             </button>
-            <button className="text-base py-2 px-6 rounded-full transform duration-300 ease text-white hover:text-pink">
+            <button className="py-2 px-6 rounded-full transform duration-300 ease text-white hover:text-pink">
                 Works
             </button>
-            <button className={"text-base border-2 font-normal py-2 px-6 rounded-full transform duration-300 ease "
+            <button className={"border-2 py-2 px-6 rounded-full transform duration-300 ease "
               + (scroll ? "bg-white text-black border-white hover:bg-white hover:text-black" : "text-white border-white hover:bg-white hover:text-black")}>
                 Contact
             </button>
