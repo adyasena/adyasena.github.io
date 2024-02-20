@@ -6,14 +6,15 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      poppins: ["Poppins", "sans-serif"],
+      inter: ["Inter", "sans-serif"],
       roboto: ["Roboto", "sans-serif"],
     },
     colors: {
-      'blue-primary': '#00458E',
-      'blue-light': '#0093DD',
-      'blue-dark': '#28166F',
-      'black': '#151515',
+      'green': '#15a069',
+      'red': '#b02a2b',
+      'blue': '#3e63bb',
+      'pink': '#d36ad3',
+      'black': '#101010',
       'white': '#F3F3F3'
     },
     extend: {},
