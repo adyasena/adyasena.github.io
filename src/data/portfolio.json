@@ -93,22 +93,22 @@
     "badge": "03 / Skills & Expertise",
     "headingPrefix": "Technologies & tools I use to ",
     "headingHighlight": "bring ideas to life.",
-    "description": "Kombinasi keahlian teknis frontend development dan sertifikasi UI/UX design untuk menghadirkan produk digital yang indah dan fungsional.",
+    "description": "Combining modern web development stack and UI/UX design principles to deliver beautiful, responsive, and high-performance digital products.",
     "categories": [
       {
-        "category": "Frontend & Web Ecosystem Core",
+        "category": "Fullstack & Web Ecosystem",
         "description": "Building fast, dynamic, and scalable modern enterprise web applications.",
-        "skills": ["Laravel", "React.js", "Next.js", "JavaScript (ES6+)", "TypeScript", "PHP", "MySQL", "MERN Stack", "RESTful APIs"]
+        "skills": ["Laravel", "PHP", "React.js", "Next.js", "JavaScript (ES6+)", "TypeScript", "MySQL", "RESTful APIs"]
       },
       {
-        "category": "Styling & Component Systems",
-        "description": "Crafting modular, responsive, and pixel-perfect design systems.",
-        "skills": ["Tailwind CSS", "NextUI", "Headless UI", "Responsive Design", "PostCSS", "Semantic HTML5/CSS3"]
+        "category": "Styling & Design Systems",
+        "description": "Crafting modular, responsive, and pixel-perfect interface components.",
+        "skills": ["Tailwind CSS", "NextUI", "Headless UI", "Responsive Web Design", "PostCSS", "HTML5 & CSS3"]
       },
       {
-        "category": "UI/UX Design & Certifications",
-        "description": "Validated proficiency in user experience and prototyping.",
-        "skills": ["Figma (Hi-Fi & Prototyping)", "User Experience Design", "UX Writing", "Problem Solving (Basic)", "Git & GitHub"]
+        "category": "UI/UX Design & Workflow Tools",
+        "description": "User experience prototyping and collaborative development workflow.",
+        "skills": ["Figma (Hi-Fi & Prototyping)", "User Experience Design", "UX Writing", "Wireframing", "Git & GitHub"]
       }
     ]
   },

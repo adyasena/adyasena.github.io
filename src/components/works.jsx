@@ -10,15 +10,12 @@ const Works = () => {
       className="relative min-h-screen w-full text-[#F3F3F3] overflow-hidden py-28 md:py-36 flex items-center bg-transparent"
     >
       <div className="container mx-auto px-6 md:px-12 relative z-10">
-        {/* Section Header Badge */}
         <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-[#121212] border border-white/10 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)] mb-6">
           <span className="w-2 h-2 rounded-full bg-pink animate-pulse" />
           <span className="text-pink font-medium tracking-widest text-xs uppercase">
             {works.badge}
           </span>
         </div>
-
-        {/* Section Title */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl">
             <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold font-inter tracking-tight leading-[1.1] mb-4">
@@ -43,8 +40,6 @@ const Works = () => {
             </svg>
           </a>
         </div>
-
-        {/* Liquid Glass Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {works.projects.map((project, index) => (
             <div
@@ -68,9 +63,7 @@ const Works = () => {
                   {project.description}
                 </p>
               </div>
-
               <div>
-                {/* Glass Project Tags */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tags.map((tag, tIdx) => (
                     <span
@@ -81,8 +74,6 @@ const Works = () => {
                     </span>
                   ))}
                 </div>
-
-                {/* Glass Project Links */}
                 <div className="flex flex-wrap items-center gap-4 pt-4 border-t border-white/10">
                   {project.liveUrl && (
                     <a
@@ -112,8 +103,6 @@ const Works = () => {
                   )}
                 </div>
               </div>
-
-              {/* Subtle liquid glow accent */}
               <div className="absolute inset-0 rounded-2xl md:rounded-3xl bg-gradient-to-b from-pink/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
             </div>
           ))}

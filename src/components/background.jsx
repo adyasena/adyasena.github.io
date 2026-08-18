@@ -103,10 +103,10 @@ const Background = () => {
           }
 
           if (pinkRef.current) {
-            pinkRef.current.style.transform = `translate3d(-${radiusX}px, 0, 0) scale(${0.75 + pinkWeight * 0.4})`;
+            pinkRef.current.style.transform = `translate3d(-${radiusX}px, 0, 0) scale(${0.75 + pinkWeight * 0.45})`;
             pinkRef.current.style.width = getOrbSize(pinkWeight);
             pinkRef.current.style.height = getOrbSize(pinkWeight);
-            pinkRef.current.style.opacity = 0.10 + pinkWeight * 0.65;
+            pinkRef.current.style.opacity = 0.12 + pinkWeight * 0.76;
           }
 
           ticking = false;
@@ -170,7 +170,7 @@ const Background = () => {
           ref={pinkRef}
           className="absolute rounded-full pointer-events-none will-change-transform"
           style={{
-            background: "radial-gradient(circle, rgba(168,85,158,0.95) 0%, rgba(168,85,158,0.65) 20%, rgba(168,85,158,0.35) 45%, rgba(168,85,158,0.12) 70%, rgba(168,85,158,0) 100%)",
+            background: "radial-gradient(circle, rgba(184,91,168,0.98) 0%, rgba(184,91,168,0.7) 20%, rgba(184,91,168,0.38) 45%, rgba(184,91,168,0.14) 70%, rgba(184,91,168,0) 100%)",
             filter: "blur(40px)",
           }}
         />

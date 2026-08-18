@@ -10,7 +10,6 @@ const Contact = () => {
       className="relative min-h-screen w-full text-[#F3F3F3] overflow-hidden pt-28 md:pt-36 pb-12 flex flex-col justify-between bg-transparent"
     >
       <div className="container mx-auto px-6 md:px-12 relative z-10 my-auto">
-        {/* Section Header Badge */}
         <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-[#121212] border border-white/10 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)] mb-6">
           <div className="flex items-center gap-1.5">
             <span className="w-2 h-2 rounded-full bg-green" />
@@ -22,8 +21,6 @@ const Contact = () => {
             {contact.badge}
           </span>
         </div>
-
-        {/* Hero Contact Text */}
         <div className="max-w-4xl mb-16">
           <h2 className="text-3xl sm:text-5xl md:text-7xl font-bold font-inter tracking-tight leading-[1.05] mb-8">
             {contact.headingPrefix}
@@ -35,8 +32,6 @@ const Contact = () => {
             {contact.description}
           </p>
         </div>
-
-        {/* Liquid Glass Contact Information & Action Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
           {contact.links.map((item, index) => (
             <a
@@ -59,8 +54,6 @@ const Contact = () => {
           ))}
         </div>
       </div>
-
-      {/* Sleek Minimal Glass Footer */}
       <footer className="container mx-auto px-6 md:px-12 relative z-10 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/50">
         <div>
           © {new Date().getFullYear()} {portfolioData.profile.name}. All rights reserved.
