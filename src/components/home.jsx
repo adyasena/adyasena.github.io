@@ -1,30 +1,27 @@
-import React, { useEffect, useState } from "react";
-import BgHome from "../assets/bg.webp";
+import React from "react";
+import portfolioData from "../data/portfolio.json";
 
 const Home = () => {
-  const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: "smooth",
-    });
-  };
+  const { profile } = portfolioData;
 
   return (
-    <div
-      className="w-full h-screen bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${BgHome})` }}
+    <section
+      id="home"
+      className="w-full h-screen relative flex items-center overflow-hidden bg-transparent"
     >
-      <div className="flex flex-col h-full gap-2 container mx-auto font-inter text-white justify-center items-center">
-        <div className="font-medium text-xl text-left ml-[-33rem]">
-          ADYA SENA PAMUNGKAS
-        </div>
-        <div className="font-semibold text-9xl text-left">
-          FRONTEND
-          <br />
-          DEVELOPER.
+      <div className="container mx-auto px-6 md:px-12 font-inter text-white flex flex-col justify-center items-start text-left">
+        <div className="w-full max-w-5xl">
+          <div className="font-medium text-base sm:text-lg md:text-2xl text-white/80 tracking-wider mb-3 text-left pl-1 sm:pl-1.5 md:pl-2">
+            {profile.name}
+          </div>
+          <h1 className="font-bold text-5xl sm:text-7xl md:text-8xl lg:text-9xl tracking-tight leading-[0.9] text-white">
+            {profile.roleLine1}
+            <br />
+            {profile.roleLine2}
+          </h1>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

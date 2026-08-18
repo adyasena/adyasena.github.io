@@ -1,0 +1,188 @@
+{
+  "profile": {
+    "name": "ADYA SENA PAMUNGKAS",
+    "brandName": "Adya Sena",
+    "roleLine1": "FRONTEND",
+    "roleLine2": "DEVELOPER."
+  },
+  "about": {
+    "sectionNumber": "01",
+    "badge": "01 / About Me",
+    "headingPrefix": "Crafting digital experiences where ",
+    "headingHighlight": "engineering meets design.",
+    "bioParagraph1": "Halo! Saya <span class=\"text-white font-medium\">Adya Sena Pamungkas</span>, seorang Frontend Developer lulusan <span class=\"text-white font-medium\">Teknologi Informasi, Universitas Gadjah Mada (UGM)</span>.",
+    "bioParagraph2": "Berpengalaman membangun aplikasi web modern dan sistem enterprise menggunakan <span class=\"text-white font-medium\">Laravel, React.js, Next.js, dan Tailwind CSS</span>, dengan ketertarikan mendalam pada interaksi visual, performa Core Web Vitals, dan arsitektur frontend yang bersih.",
+    "highlights": [
+      {
+        "number": "01",
+        "title": "Modern Web Ecosystem & Enterprise Stack",
+        "desc": "Building robust, performant, and scalable web applications using Laravel, React.js, Next.js, Tailwind CSS, and clean API integrations."
+      },
+      {
+        "number": "02",
+        "title": "UI/UX & Design Systems",
+        "desc": "Certified in Figma High-Fidelity & Prototyping. Translating complex wireframes into intuitive, accessible design systems."
+      },
+      {
+        "number": "03",
+        "title": "Collaborative Problem Solving",
+        "desc": "Experienced across hybrid and on-site agile engineering teams, delivering clean, reliable, and user-centric web solutions."
+      }
+    ]
+  },
+  "experience": {
+    "sectionNumber": "02",
+    "badge": "02 / Experience & Journey",
+    "headingPrefix": "Career milestones & ",
+    "headingHighlight": "hands-on experience.",
+    "description": "Perjalanan profesional dalam merancang dan mengembangkan aplikasi web modern di berbagai industri mulai dari enterprise, startup AI, hingga institusi pendidikan.",
+    "items": [
+      {
+        "role": "Frontend Developer",
+        "company": "PT. TELKOM AKSES",
+        "period": "Apr 2025 – Present",
+        "location": "Sleman, Yogyakarta, Indonesia",
+        "description": "Developing scalable frontend architectures and enterprise web interfaces, ensuring high reliability, maintainability, and optimal user experiences.",
+        "skills": ["Laravel", "MySQL", "Tailwind CSS", "Enterprise Web"],
+        "isCurrent": true
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Widya Robotics",
+        "period": "Feb 2024 – Jun 2024",
+        "location": "Sleman, Yogyakarta, Indonesia",
+        "description": "Developed and optimized key frontend features for Notulensi, an AI-based meeting note-taking platform, using Next.js, NextUI, and Tailwind CSS.",
+        "skills": ["Next.js", "NextUI", "Tailwind CSS", "AI Integration"]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Kanal Pengetahuan Farmasi UGM",
+        "period": "Sep 2023 – Dec 2023",
+        "location": "Sleman, Yogyakarta, Indonesia",
+        "description": "Engineered an educational web portal documenting Indonesian traditional medicine (jamu), featuring interactive media, recipes, and video guides using Next.js.",
+        "skills": ["Next.js", "JavaScript", "Responsive UI"]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "TEDxUGM",
+        "period": "Oct 2023 – Nov 2023",
+        "location": "Sleman, Yogyakarta, Indonesia",
+        "description": "Built and styled interactive landing pages for TEDxUGM main event and pre-event campaigns using Next.js and modern CSS.",
+        "skills": ["Next.js", "Interactive UI", "Event Platform"]
+      },
+      {
+        "role": "Head of Design & Documentation",
+        "company": "KKN-PPM UGM Ngargoretno",
+        "period": "May 2023 – Aug 2023",
+        "location": "Magelang, Central Java, Indonesia",
+        "description": "Coordinated the design division while developing a full-stack MERN web profile for local tourism and MSME enterprises in Kalirejo.",
+        "skills": ["MERN Stack", "Figma", "Design Systems"]
+      },
+      {
+        "role": "Smart City Services Intern",
+        "company": "Dinas Komunikasi dan Informatika",
+        "period": "Jan 2023 – Feb 2023",
+        "location": "Purworejo, Central Java, Indonesia",
+        "description": "Developed facility tracking frontend applications with React.js and customized the OpenSID open-source village governance portal.",
+        "skills": ["React.js", "OpenSID", "Design Systems"]
+      }
+    ]
+  },
+  "skills": {
+    "sectionNumber": "03",
+    "badge": "03 / Skills & Expertise",
+    "headingPrefix": "Technologies & tools I use to ",
+    "headingHighlight": "bring ideas to life.",
+    "description": "Kombinasi keahlian teknis frontend development dan sertifikasi UI/UX design untuk menghadirkan produk digital yang indah dan fungsional.",
+    "categories": [
+      {
+        "category": "Frontend & Web Ecosystem Core",
+        "description": "Building fast, dynamic, and scalable modern enterprise web applications.",
+        "skills": ["Laravel", "React.js", "Next.js", "JavaScript (ES6+)", "TypeScript", "PHP", "MySQL", "MERN Stack", "RESTful APIs"]
+      },
+      {
+        "category": "Styling & Component Systems",
+        "description": "Crafting modular, responsive, and pixel-perfect design systems.",
+        "skills": ["Tailwind CSS", "NextUI", "Headless UI", "Responsive Design", "PostCSS", "Semantic HTML5/CSS3"]
+      },
+      {
+        "category": "UI/UX Design & Certifications",
+        "description": "Validated proficiency in user experience and prototyping.",
+        "skills": ["Figma (Hi-Fi & Prototyping)", "User Experience Design", "UX Writing", "Problem Solving (Basic)", "Git & GitHub"]
+      }
+    ]
+  },
+  "works": {
+    "sectionNumber": "04",
+    "badge": "04 / Selected Works",
+    "headingPrefix": "Featured projects & ",
+    "headingHighlight": "real-world works.",
+    "description": "Proyek nyata antarmuka web yang pernah saya rancang dan kembangkan di lingkungan startup, institusi, dan komunitas.",
+    "githubUrl": "https://github.com/adyasena",
+    "projects": [
+      {
+        "title": "Notulensi — AI Meeting Transcription",
+        "category": "AI Web Platform",
+        "company": "Widya Wicara",
+        "description": "Developed key frontend features and interactive dashboards for Notulensi, an AI-powered automated meeting speech-to-text and transcription platform.",
+        "tags": ["Next.js", "NextUI", "Tailwind CSS", "AI Integration", "TypeScript"],
+        "liveUrl": "https://notulensi.id/",
+        "github": "https://github.com/adyasena"
+      },
+      {
+        "title": "TEDxUGM Official Platform",
+        "category": "Event & Ticketing Web",
+        "company": "TEDxUGM",
+        "description": "Crafted interactive, accessible, and high-performance landing pages for TEDxUGM main event and pre-event showcases with modern animations.",
+        "tags": ["Next.js", "Tailwind CSS", "React", "Responsive UI"],
+        "github": "https://github.com/adyasena"
+      },
+      {
+        "title": "Jampi Ati — Web Literasi Jamu",
+        "category": "Digital Encyclopedia",
+        "company": "Kanal Pengetahuan Farmasi UGM",
+        "description": "Engineered an educational web portal documenting Indonesian traditional medicine (jamu), herb taxonomy, interactive media, recipes, and video guides.",
+        "tags": ["Next.js", "React.js", "Tailwind CSS", "Media Portal"],
+        "liveUrl": "https://jampiati.jogjaprov.go.id/",
+        "github": "https://github.com/adyasena"
+      },
+      {
+        "title": "Kalirejo Tourism & MSME Portal",
+        "category": "Enterprise Web Profile",
+        "company": "KKN-PPM UGM Ngargoretno",
+        "description": "Designed a dedicated design system and developed full-stack web solutions to promote regional ecotourism and local MSME village enterprises.",
+        "tags": ["MERN Stack", "Figma", "Design Systems", "Node.js"],
+        "github": "https://github.com/adyasena"
+      }
+    ]
+  },
+  "contact": {
+    "sectionNumber": "05",
+    "badge": "05 / Get In Touch",
+    "headingPrefix": "Let’s collaborate and build something ",
+    "headingHighlight": "exceptional together.",
+    "description": "Tertarik untuk berkolaborasi, mendiskusikan peluang proyek baru, atau sekadar bertukar ide seputar teknologi frontend?",
+    "links": [
+      {
+        "label": "Email",
+        "value": "dysnasp@gmail.com",
+        "href": "mailto:dysnasp@gmail.com"
+      },
+      {
+        "label": "Phone / WhatsApp",
+        "value": "+62 852-2921-2132",
+        "href": "https://wa.me/6285229212132"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/adyasena",
+        "href": "https://www.linkedin.com/in/adyasena"
+      },
+      {
+        "label": "Location",
+        "value": "Sleman, Yogyakarta, ID",
+        "href": "https://maps.google.com/?q=Sleman,Yogyakarta"
+      }
+    ]
+  }
+}
