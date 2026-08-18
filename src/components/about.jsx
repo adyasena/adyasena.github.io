@@ -7,9 +7,9 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative min-h-screen w-full text-[#F3F3F3] overflow-hidden py-28 md:py-36 flex items-center bg-transparent"
+      className="relative min-h-screen w-full text-[#F3F3F3] overflow-hidden py-24 sm:py-28 md:py-36 flex items-center bg-transparent"
     >
-      <div className="container mx-auto px-6 md:px-12 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10">
         {/* Section Header Badge */}
         <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-[#121212] border border-white/10 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)] mb-6">
           <span className="w-2 h-2 rounded-full bg-green animate-pulse" />

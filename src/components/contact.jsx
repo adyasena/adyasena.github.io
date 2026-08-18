@@ -7,9 +7,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative min-h-screen w-full text-[#F3F3F3] overflow-hidden pt-28 md:pt-36 pb-12 flex flex-col justify-between bg-transparent"
+      className="relative min-h-screen w-full text-[#F3F3F3] overflow-hidden pt-24 sm:pt-28 md:pt-36 pb-12 flex flex-col justify-between bg-transparent"
     >
-      <div className="container mx-auto px-6 md:px-12 relative z-10 my-auto">
+      <div className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10 my-auto">
         <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-[#121212] border border-white/10 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)] mb-6">
           <div className="flex items-center gap-1.5">
             <span className="w-2 h-2 rounded-full bg-green" />
